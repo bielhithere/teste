@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="calculadora.css">      
+</head>
+<body>
+    <header id="result">
+        resultado
+    </header>
+    <li id="finais">
+        Resultados obtidos : 
+    </li>
+
+    <main>
+        <p>
+            <button onclick="clean()" class="sla" type="button">C</button> <button onclick="limpar()" class="sla" type="button">del</button><button onclick="divisao()" class="sinais" type="button">÷</button>
+        </p>
+        <p>
+            <button onclick="sete()" class="numeros" type="button">7</button><button onclick="oito()" class="numeros" type="button">8</button><button onclick="nove()" class="numeros" type="button">9</button><button onclick="vezes()" class="sinais" type="button">X</button>
+        </p> 
+        <p>
+            <button onclick="quatro()" class="numeros" type="button">4</button><button onclick="cinco()" class="numeros" type="button">5</button><button onclick="seis()" class="numeros" type="button">6</button><button onclick="menos()" class="sinais" type="button">-</button>
+        </p>
+        <p>
+            <button onclick="um()" class="numeros" type="button">1</button><button onclick="dois()" class="numeros" type="button">2</button><button onclick="tres()" class="numeros" type="button">3</button><button onclick="mais()" class="sinais" type="button">+</button>
+        </p>
+        <p>
+            <button id="zero" onclick="zero()" class="numeros" type="button">0</button>  <button class="numeros" onclick="igual()">=</button>
+        </p>
+    </main>
+
+    <footer>
+        Biel©
+    </footer>
+</body>
+<script src="calculadora.js"></script>
+</html>
